@@ -13,26 +13,15 @@ import * as serviceWorker from './serviceWorker';
 //ACTION INCREMENT -> You can think of an action as an event that describes something that happened in the application.
 //An action creator is a function that creates and returns an action object.
 const increment = () => {
-  // return {
-  //     type: 'INCREMENT'
-  // }
-  return (
-    <div className="col">
-    <h1>INCREMENT</h1>
-    </div>
-    );
+  return {
+      type: 'INCREMENT'
+  }
 }
 
 const decrement = () => {
-  // return {
-  //     type: 'DECREMENT'
-  // }
-  return (
-    <div className="col">
-    <h1>INCREMENT</h1>
-    </div>
-
-    );
+  return {
+      type: 'DECREMENT'
+  }
 }
 
 //REDUCER -> A reducer is a function that receives the current state and an action object, 
