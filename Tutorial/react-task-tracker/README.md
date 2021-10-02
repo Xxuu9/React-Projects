@@ -1,4 +1,4 @@
 Install icons: npm i react-icons<br>
-Add build folder(production stuffs):<br> npm run build<br>  npm i -g service  
+```Add build folder(production stuffs):<br> npm run build<br>  npm i -g service  
 npm install serve <br>
 npx serve -s build -p 8000
